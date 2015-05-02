@@ -1,0 +1,8 @@
+{{#extend "layout"}}
+  {{#content "main"}}
+    <section class="container">
+      <h1>Add user</h1>
+      {{> form action="/users" submit="Create user" error=error}}
+    </section>
+  {{/content}}
+{{/extend}}
